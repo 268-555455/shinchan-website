@@ -2,8 +2,10 @@
 <html lang=zh>
 <head>
 <meta charset="UTF-8">
+<title>蠟筆小新</title>
 <style>
-  <div style=background-image: url("https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/o4aAwfCoDgf9DhAQAMpEAXCDWANFITWDn4ztAB~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1753873200&x-signature=yLgUHVw89w363TizIuOheyMNa2s%3D");
+body {
+  background-image: url("https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/o4aAwfCoDgf9DhAQAMpEAXCDWANFITWDn4ztAB~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1753873200&x-signature=yLgUHVw89w363TizIuOheyMNa2s%3D"); /* ✅ 改為線上圖片網址 */
   background-size: cover;       /* 讓圖片覆蓋整個背景 */
   background-repeat: no-repeat; /* 不重複顯示圖片 */
   color: red;                 /* 這裡設定文字顏色為紅色 */
