@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>我的 RPG</title>
+</head>
+<body>
+  <h1>我的RPG</h1>
+
+  <h2>史萊姆</h2>
+
+  <span id=playerHP>100</span>
+
+<button onclick="attack()">攻擊</button>
+
+<script>
+let playerName="謝傻逼";
+let playerLevel=1;
+let playerHP=100;
+let playerAttak=20
+</script>
+
+<script>
+let monsterName="傻逼"
+let monsterHP=20
+let monsterAttak=5
+</script>
+
+playerHP-=5;  //被怪物打
+  if (playerHP>0)
+  console.log("謝傻逼血量-5")
+monsterHP-=20  //被玩家打
+  if (monsterHP<=0)
+  console.log("史萊姆死亡")
+
+if (monsterHP<=0)
+console.log("遊戲結束")
+
+if (playerHP>0)
+console.log("謝傻逼勝利")
+
+
+</body>
+</html>
